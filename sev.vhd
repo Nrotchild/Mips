@@ -44,7 +44,7 @@ begin
 			q1<=pb;
 			q2<=q1;
 			q4<=q3;
-			if(cnt17(16)='1') then
+			if(cnt17(16)='1') then       ----------- for bouncing when clk is 50meg ------- 
 				q3<=q2;
 			end if;
 			if(cnt17(16)='1') then 
